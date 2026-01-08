@@ -41,12 +41,19 @@ main {
 
 footer {
   background-color: var(--laranja);
-  width: 100%;
 }
 
 .cabecalho {
   height: 300px;
   background-color: var(--preto);
+}
+
+.sobre {
+  min-height: 400px;
+}
+
+.projetos {
+  min-height: 800px;
 }
 
 h1 {
@@ -62,6 +69,12 @@ h1:hover {
   cursor: pointer;
   color: var(--vermelho);
   transition: 0.1s ease-in-out;
+}
+
+h2 {
+  font-family: "Inconsolata", "sans serif";
+  font-weight: 800;
+  color: var(--preto);
 }
 
 p {
